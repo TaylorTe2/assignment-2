@@ -1,0 +1,36 @@
+﻿html, body {
+	background-color: #CFDBD5;
+	color: #242423;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+#cv {
+	background: #E8EDDF;
+	width: 90%;
+	max-width: 680px;
+	margin: auto;
+}
+
+#pct {
+	align-self:
+}
+
+p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Economica';
+	padding-left: 20px;
+}
+
+div {
+	border-bottom: 3px solid #E8EDDF;
+}
+
+h1 {
+	font-weight: 900;
+}
