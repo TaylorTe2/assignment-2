@@ -2342,9 +2342,9 @@ Description automatically generated"
 </p>
 <p dir="ltr">
     <img
-        src="https://lh3.googleusercontent.com/H2fhjIN14GHBoea8ge2Vm3FCQQu_1Gmt9wX7GlTv4_9XFpPRzIU1WJZtjYbvYF-khdX85sCPSYPuNl2E4oQnMJIJRkUA-q8i1Fa-Vuh_g52uiGsKXA7UssUxshBomIQhC_8aeRkL"
-        width="500"
-        height="130"
+        src="https://lh3.googleusercontent.com/9dFGK4OMeJdzwd8-5pcfEtzb0QmTO4JN6gJk0CMpGWaYhe0yAAK1zC5lZ0QNyZfiF3Ilhf9IpJvB9yvrDJ1l9lkb4FqnDbCEExOWtJhANJf8f9U-PUvS79vPHebh4hQxlC3CDT4S"
+        width="480"
+        height="271"
     />
     <br/>
     Image Credit:
@@ -2568,7 +2568,7 @@ Description automatically generated"
                         like a switch. They have 3 pins. Base, emitter and
                         collector. If there’s a little electricity on base the
                         circuit is closed and electricity can flow. Using a
-                        darlington pair method, the transistor can be used to
+                        Darlington pair method, the transistor can be used to
                         amplify power supply too.
                     </p>
                 </td>
@@ -2674,7 +2674,11 @@ Description automatically generated"
 <p dir="ltr">
     If you’re looking for more information on what the inside electrical
     components are used for, Sam has written up a document which can be found
-    here.
+    <a
+        href="https://github.com/TaylorTe2/assignment-2/raw/main/IT%20Tech%20Raspberry%20Pi.pdf"
+    >
+        here.
+    </a>
 </p>
 <br/>
 <p dir="ltr">
@@ -2706,6 +2710,919 @@ Description automatically generated"
 </p>
 <p dir="ltr">
     ~ Sam
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 dir="ltr">
+    Project Idea
+</h2>
+<p dir="ltr">
+    For our group project, TESS decided to go with the PARKD Motorcycle parking
+    application. Although the project was initially conceived by Emmet, all
+    members of the group decided to pursue the same idea and equally
+    contributed towards the project. On the 30th of June, we came together on
+    MS Teams. We plan to utilize Sam for the back end, Taylor and Emmet for the
+    front end, and Saajid for research and formatting.
+</p>
+<h3 dir="ltr">
+    Overview
+</h3>
+<p dir="ltr">
+    ParkD is a free motorcycle parking app for Sydney. It is an application for
+    people who ride motorcycles daily, whether for work, leisure, or just
+    getting from one place to another. The concept of the app is to create a
+    platform which acts like an Airbnb for bike parking. ParkD is community-
+    rated, which means that people in the community can input a location on the
+    app, for motorbike parking which they know is safe and secure. The app
+    locates the closest community rated parking near a chosen location. ParkD
+    will provide timely motorcycle parking solutions to address the issue of
+    reliable parking in Sydney.
+</p>
+<h3 dir="ltr">
+    Motivation
+</h3>
+<p dir="ltr">
+    There is a major problem in a lot of Australian cities right now when it
+    comes to motorbike parking, with greater Sydney having 1145 thefts in the
+last twelve months, as shown by    <a href="https://carsafe.com.au/motorcycle-map">NMVTRC</a>. As a result of
+    this, we wanted to create an application that motorcyclists could easily
+    use to find, rent, and occupy parking spaces for two-wheeled vehicles. The
+    idea behind this application is to fill a huge gap in the market by
+    providing riders with peace of mind, knowing that they can find, locate,
+    and reserve safer parking using an app where information is provided by
+    other motorcyclists in the area. It is especially concerning that more than
+    half of the victims of motorbike theft never see their bikes again.
+</p>
+<p dir="ltr">
+    <a
+        href="https://www.blackknighttracking.com/post/2018/06/28/australian-motorcycle-theft-statistics"
+    >
+        Australian Motorcycle Theft Statistics (blackknighttracking.com)
+    </a>
+</p>
+<br/>
+<br/>
+<br/>
+<h3 dir="ltr">
+    Description
+</h3>
+<p dir="ltr">
+    The beauty of the app is that users can register as parking landlords and
+    rent their secure parking spots to other two wheeled users who require
+    temporary parking solutions. The concept is a community-rated platform
+    which acts like an Airbnb for two wheeled commuters. The app locates the
+    closest community rated parking near a chosen location using geolocation.
+</p>
+<p dir="ltr">
+    To be able to provide our bikers with parking information we are going to
+    rely on input from other users. For example, if someone were to park their
+    motorbike in an available bay and noticed that there were multiple other
+    spots available, they could put the location on a map for other bikers to
+    see. Once another biker arrives at the location with the available parking,
+    they can remove that parking spot from the map. Even if this second biker
+    did not occupy the park themselves, they would still be able to remove it
+    from the map.
+</p>
+<p dir="ltr">
+    There are major aspects of this application that need to be considered,
+    including:
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Common UI features such as a menu button containing settings and
+            the user's profile setup
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Interactive Map – An interactive map to help users find their
+            current location and look for available parks in that area.
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Lease my park - The ability for landlord profiles to add and remove
+            a private parking from an Interactive Map View / Geolocation
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Technical Support – via Notifications via Messaging with regards to
+            Scheduling bookings, Payment Integration and Ratings/Reviews
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Ratings/Reviews - We would provide users the option to ‘rate their
+            stay’ if they rented a park of another user.
+        </p>
+    </li>
+</ul>
+<p dir="ltr">
+    When developing ideas for this application, our group ran into its fair
+    share of problems. However, the biggest question we had to ask ourselves
+    was how are we going to ensure that when a rider vacates a spot, they mark
+    it as ‘free’ again?
+</p>
+<p dir="ltr">
+    As you will find in the sections below, our solution was to allow the user
+    to input an estimated time that they would leave by. When the time the user
+    entered was approaching (say 15 minutes prior), the application would send
+    a notification to their phone, reminding them that time is almost up AND
+    giving them the option to extend their time.
+</p>
+<p dir="ltr">
+    For all these functions to operate together in a cohesive way, much thought
+    had to be given towards the backend.
+</p>
+<br/>
+<p dir="ltr">
+    <img
+        src="https://lh6.googleusercontent.com/as0l2nIg3pdL1wnxVResvdxziA-1bofjzJpaBYwbQZYarkR8C_pWxUhQrA4hpOId1_Fy9Ugl5wP05bu1om6PBAkPM-YrswPeXawogsG9XiUcBI1AZwCCt0RhW9PBwcWaVYNsq-JV"
+        width="480"
+        height="321"
+    />
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<h3 dir="ltr">
+    Skills
+</h3>
+<p dir="ltr">
+    The Skills TESS would need to acquire in order to complete this project
+    consist of:
+</p>
+<div dir="ltr" align="left">
+    <table>
+        <colgroup>
+            <col/>
+            <col/>
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>
+                    <p dir="ltr">
+                        Frontend Skills
+                    </p>
+                </td>
+                <td>
+                    <p dir="ltr">
+                        Backend Skills
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p dir="ltr">
+                        Understanding of server-side CSS.
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        CSS frameworks and responsive design
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        UX Design
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Python
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Java/JavaScript frameworks
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        HTML
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Developer tools and version control
+                    </p>
+                    <br/>
+                </td>
+                <td>
+                    <p dir="ltr">
+                        Development &amp; understanding of:
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Python 3.8.5 and external modules
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        SSL/TLS certificates, MITM attacks, IP-Spoofing and
+                        other vulnerabilities
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Hashing algorithms
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        RDBMS (Relational Database)
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Networking
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Routing (Port forwarding/triggering, WAN, LAN/VLAN)
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        IPv4, network address
+                    </p>
+                    <br/>
+                    <p dir="ltr">
+                        Geolocation
+                    </p>
+                    <br/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h3 dir="ltr">
+    Tools and Technologies
+</h3>
+<p dir="ltr">
+    Tools and technologies that our group will utilise to bring this
+    application to fruition include:
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Windows Server 2012 r2 or 2016 (Services – IIS, DNS)
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Spyder IDE, external modules – PyQRCode, Cryptography (Fernet),
+            Opencv-python, Geopy
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Azure Data Studio
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            A basic router.
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            A phone
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            VMware for testing
+        </p>
+    </li>
+</ul>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            No-IP or DynDNS
+        </p>
+    </li>
+</ul>
+<h4 dir="ltr">
+    User-Interface
+</h4>
+<p dir="ltr">
+    We need to carefully consider the design of the user interface. We are
+    looking for something simple, yet elegant. Below is something we drafted up
+    to give some idea of what exactly we have in mind.
+</p>
+<p dir="ltr">
+    <img
+        src="https://lh5.googleusercontent.com/rztpb-zUeGZM8Rfq7RCPsKpEH5nX2sd9zn2pgS7VcwrbpQS0AYFCM7_bLIDSMQPzmC7_7C7bQId2fKGGePT_bbQyPsag80ZVPTU0P38plYzkXk-n4IZFD2IZK5j-SMSvAxpBys4Q"
+        width="348"
+        height="357"
+    />
+</p>
+<h4 dir="ltr">
+    Backend Information
+</h4>
+<h5 dir="ltr">
+    Shared Database
+</h5>
+<p dir="ltr">
+    User_cred – All user credentials are stored.
+</p>
+<p dir="ltr">
+    Landlord:
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Parking_lot_registration – Stores the unique UserID. The QR code is
+            same as userID
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Landlord_details – Keeps a record of the landlord contact, name
+            etc.
+        </p>
+    </li>
+</ul>
+<p dir="ltr">
+    Tenant:
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Vehicle_info – Stores tenant vehicle model, number etc.
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            Qr_table – saves the qr codes and time it was generated
+        </p>
+    </li>
+    <li dir="ltr">
+        <p dir="ltr">
+            App_essentials - Stores time/date, landlord ID, Tenant ID and
+            vehicle number temporarily.
+        </p>
+    </li>
+</ul>
+<br/>
+<p dir="ltr">
+    Archive:
+</p>
+<p dir="ltr">
+    Deactivated account information, hidden advertisements are saved in the
+    archive folder.
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h5 dir="ltr">
+    QR Code
+</h5>
+<p dir="ltr">
+    For every ‘landlord’, we will generate a QR code with an alphanumeric
+    combination and store it in the qr_table DB. The QR code format is
+    Date/time + Username + DOB.
+</p>
+<br/>
+<h5 dir="ltr">
+    Router/Cellular
+</h5>
+<p dir="ltr">
+    If the user inputs something that needs to be routed to the IIS or the SQL
+    server. The packets need to be routed to a public/private DNS first and
+    resolve the name to IP address, then the request will be routed to the IP
+    address (IIS, SQL server).
+</p>
+<p dir="ltr">
+    To use a public DNS server(eg. 8.8.8.8) we will need a static public IP
+    address and port forwarding on our router on the web server end. Otherwise,
+    we can also use DynDNS or No-IP. This basically keeps updating the IP
+    address of a server in the public DNS, so even if the IP is dynamic, it can
+    still be resolved from a Domain name.
+</p>
+<br/>
+<h5 dir="ltr">
+    Web Server/IIS
+</h5>
+<p dir="ltr">
+    The website will be hosted by windows server 2016 or 2012 r2. It can also
+    be hosted by Windows 10 if the computer has IIS service installed in it.
+    For cloud hosting Wix, Azure, AWS, GCP, IBM Cloud can be used.
+</p>
+<br/>
+<h5 dir="ltr">
+    SSL/TLS
+</h5>
+<p dir="ltr">
+    For the prototype we may not use an SSL certificate, however in real life
+    it is crucial to have an SSL. http:// does not encrypt any communication
+    between the user and server. So, every communication is plain text and
+    vulnerable.
+</p>
+<br/>
+<h5 dir="ltr">
+    DNS (Private/Public)
+</h5>
+<p dir="ltr">
+    To put it simply, DNS is a translator, it translates a domain name into an
+    IP address. It can be private or public. Private DNS servers are mostly
+    used for intranets. It can also be used for WAN. We will try both DNS and
+    No-IP. No-IP is a dynamic DNS, which keeps a record of updated IP
+    addresses. So, the domain name resolves to the updated IP address.
+</p>
+<br/>
+<h5 dir="ltr">
+    SQL Server (RDBMS)
+</h5>
+<p dir="ltr">
+    A server that contains the database of QR codes, vehicle information and
+    App essentials. Please note that the user_cred (credentials) is in the DMZ
+    zone. So, no other table has relations with them. We have put the user_cred
+    into the DMZ zone for security concerns, such as: SQL injection.
+</p>
+<p dir="ltr">
+    We will have Landlord DB and Tenant DB on different SQL servers. So, even
+    if one physical machine is down the other mode can still work.
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h4 dir="ltr">
+    Backend Architecture
+</h4>
+<br/>
+<p dir="ltr">
+    The program will have many functions and modules. Some of them are:
+</p>
+<p dir="ltr">
+    Main():
+</p>
+<p dir="ltr">
+    The program will begin here. Will have all selections and options. No
+    complex function will be here.
+</p>
+<p dir="ltr">
+    Log_in():
+</p>
+<p dir="ltr">
+    Let the user log in. Credentials are stored in User_cred DB, passwords are
+    hashed with Fernet cryptography.
+</p>
+<p dir="ltr">
+    Mode_selection():
+</p>
+<p dir="ltr">
+    Option
+</p>
+<p dir="ltr">
+    1. Landlord (Individuals, City-council, or businesses for free parking
+    lots)
+</p>
+<p dir="ltr">
+    2. Tenant
+</p>
+<p dir="ltr">
+    Landlord_mode ():
+</p>
+<p dir="ltr">
+    Option:
+</p>
+<p dir="ltr">
+    1. Return to the main menu
+</p>
+<p dir="ltr">
+    2. Register parking space and record geolocation
+</p>
+<p dir="ltr">
+    3. Advertise parking lot
+</p>
+<p dir="ltr">
+    4. Hide/unhide
+</p>
+<p dir="ltr">
+    5. See/print QR code
+</p>
+<p dir="ltr">
+    6. Additional parking lot
+</p>
+<p dir="ltr">
+    7. Delete/Deactivate
+</p>
+<p dir="ltr">
+    8. Set a price (Maximum 5$ can be charged for an hour)
+</p>
+<p dir="ltr">
+    Tenant_mode ():
+</p>
+<p dir="ltr">
+    Option:
+</p>
+<p dir="ltr">
+    1. Return to main menu
+</p>
+<p dir="ltr">
+    2. Register vehicle
+</p>
+<p dir="ltr">
+    3. Scan QR code:
+</p>
+<p dir="ltr">
+    4. Clock out:
+</p>
+<p dir="ltr">
+    5. Extend return time
+</p>
+<p dir="ltr">
+    6. Delete/deactivate
+</p>
+<p dir="ltr">
+    7: Nearby parking spaces
+</p>
+<p dir="ltr">
+    8. Show free of charge parking space
+</p>
+<p dir="ltr">
+    Scan_qr ():
+</p>
+<p dir="ltr">
+    Upon scanning, the qr code will be resolved to a unique ID of the landlord
+    and the program will collect the tenant's ID and save it on the
+    app_essential DB with the date/time.
+</p>
+<p dir="ltr">
+    Estimated_time():
+</p>
+<p dir="ltr">
+    User will provide an estimated time of return. If the user forgets to clock
+    out, the program will remind them to clock out after the estimated time is
+    over, so the parking spot can be readvertised.
+</p>
+<p dir="ltr">
+    If a user is expected to be late, he can use the user_return function to
+    extend the time.
+</p>
+<p dir="ltr">
+    User_return():
+</p>
+<p dir="ltr">
+    Option:
+</p>
+<p dir="ltr">
+    1. User returned and clocked out
+</p>
+<p dir="ltr">
+    2. User returned earlier and clocked out
+</p>
+<p dir="ltr">
+    3. User will return later and clock out
+</p>
+<p dir="ltr">
+    Available_lot():
+</p>
+<p dir="ltr">
+    Send a http:// requests to the webserver to get the list of advertisements
+    available.
+</p>
+<p dir="ltr">
+    Price():
+</p>
+<p dir="ltr">
+    Option:
+</p>
+<ol>
+    <li dir="ltr">
+        <p dir="ltr">
+            Add/update price
+        </p>
+    </li>
+</ol>
+<p dir="ltr">
+    Email_invoice():
+</p>
+<p dir="ltr">
+    Send Email with time log and invoice.
+</p>
+<p dir="ltr">
+    Location():
+</p>
+<p dir="ltr">
+    Can get the geolocation, calculate distance, show the nearest spot.
+</p>
+<br/>
+<h3 dir="ltr">
+    Outcome
+</h3>
+<p dir="ltr">
+    The potential outcome that we are hoping for with this project idea is to
+    have a fully functioning app that allows a user to mark a parking space as
+    safe, and for other riders to be able to occupy these locations. We will
+    know that the app is fully functional when a motorcyclist is able to pull
+    out their phone and mark their current or previous location as a secure
+    parking spot. The app will also need to provide functionality for people
+    with reserved parking bays to rent those out, and for riders to come to an
+    agreement over our platform. If we can make motorcycle riders in
+    Australia’s cities feel safer taking their bikes out wherever they go,
+    knowing that they can locate a safe and secure parking spot for their bike,
+    then we would be making the world a better place for many people.
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2 dir="ltr">
+    References
+</h2>
+<h3 dir="ltr">
+    IT Technologies
+</h3>
+<h4 dir="ltr">
+    Machine Learning
+</h4>
+<p dir="ltr">
+    2021. [online] Available at:
+    &lt;https://www.researchgate.net/figure/Graphic-representation-of-supervised-machine-learning-In-supervised-learning-original_fig1_301688300&gt;
+    [Accessed 18 July 2021].
+</p>
+<p dir="ltr">
+    freeCodeCamp.org. 2021. Want to know how Deep Learning works? Here’s a
+    quick guide for everyone.. [online] Available at:
+    &lt;https://www.freecodecamp.org/news/want-to-know-how-deep-learning-works-heres-a-quick-guide-for-everyone-1aedeca88076/&gt;
+    [Accessed 18 July 2021].
+</p>
+<br/>
+<h4 dir="ltr">
+    Cloud, Services, Servers
+</h4>
+<p dir="ltr">
+    Peter Mell &amp; Timothy Grance, NIST, September 2011, Final Version of
+    NIST Cloud Computing Definition Published, Viewed on 11 July 2021
+</p>
+<p dir="ltr">
+    &lt;https://www.nist.gov/news-events/news/2011/10/final-version-nist-cloud-computing-definition-published&gt;
+</p>
+<p dir="ltr">
+    Microsoft Azure, N.D, How to choose a cloud service provider, Viewed on 11
+    July 2021
+</p>
+<p dir="ltr">
+    &lt;https://azure.microsoft.com/en-au/overview/choosing-a-cloud-service-provider/&gt;
+</p>
+<p dir="ltr">
+    Microsoft Azure, N.D, What is cloud computing? A beginner’s guide, Viewed
+    on 11 July 2021
+</p>
+<p dir="ltr">
+    &lt;https://azure.microsoft.com/en-au/overview/what-is-cloud-computing/#uses&gt;
+</p>
+<p dir="ltr">
+    TechChroma, August 2020, What is Cloud Computing? - A Fresh Look, Viewed on
+    11 July 2021
+</p>
+<p dir="ltr">
+    &lt;https://techchroma.com/what-is-cloud-computing-a-fresh-look/&gt;
+</p>
+<p dir="ltr">
+    Vijay K Sharma, KLIENT SOLUTECH, February 2018, Powerful Uses of Cloud
+    Computing, viewed on 11 July 2021
+</p>
+<p dir="ltr">
+    &lt;https://www.klientsolutech.com/powerful-uses-of-cloud-computing/&gt;
+</p>
+<br/>
+<h4 dir="ltr">
+    Autonomous Vehicles
+</h4>
+<br/>
+<p dir="ltr">
+    Synopsys.com. n.d. What is an Autonomous Car? – How Self-Driving Cars Work
+    | Synopsys. [online] Available at:
+    &lt;https://www.synopsys.com/automotive/what-is-autonomous-car.html&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Vox. 2020. It’s 2020. Where are our self-driving cars?. [online] Available
+    at:
+    &lt;https://www.vox.com/future-perfect/2020/2/14/21063487/self-driving-cars-autonomous-vehicles-waymo-cruise-uber&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Landmark Dividend LLC. n.d. Self-Driving Car Technology: How Do
+    Self-Driving Cars Work? | Landmark Dividend - Landmark Dividend LLC.
+    [online] Available at:
+    &lt;https://www.landmarkdividend.com/self-driving-car/&gt; [Accessed 13
+    July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Noonan, K., 2019. What Does the Future Hold for Self-Driving Cars? | The
+    Motley Fool. [online] The Motley Fool. Available at:
+    &lt;https://www.fool.com/investing/what-does-the-future-hold-for-self-driving-cars.aspx&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    MIT Technology Review. 2019. Self-driving cars take the wheel. [online]
+    Available at:
+    &lt;https://www.technologyreview.com/2019/02/15/137381/self-driving-cars-take-the-wheel/&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Robotics &amp; Automation News. 2020. 6 Ways Autonomous Vehicles Will
+    Impact Life As We Know It. [online] Available at:
+    &lt;https://roboticsandautomationnews.com/2020/06/22/6-ways-autonomous-vehicles-will-impact-life-as-we-know-it/33326/&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Ohio University. 2020. 5 Effects of the Adoption of Autonomous Vehicles |
+    Ohio University. [online] Available at:
+    &lt;https://onlinemasters.ohio.edu/blog/5-effects-of-the-adoption-of-autonomous-vehicles/&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<br/>
+<p dir="ltr">
+    Ahead, G. and cons, D., n.d. Driverless cars pros and cons – Insurance
+    Solved Blog | Budget Direct. [online] Insurance Solved Blog | Budget
+    Direct. Available at:
+    &lt;https://www.budgetdirect.com.au/blog/driverless-cars-pros-and-cons.html&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    n.d. Self-Driving Car Technology. [image] Available at:
+    &lt;https://www.landmarkdividend.com/wp-content/uploads/2018/05/Autonomous-Car-3.png&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    SAE, 2018. Levels Of Driving Automation. [image] Available at:
+    &lt;https://www.sae.org/binaries/content/gallery/cm/articles/press-releases/2018/12/j3016-levels-of-automation-image.png&gt;
+    [Accessed 13 July 2021].
+</p>
+<br/>
+<p dir="ltr">
+    Litman, T., 2021. Autonomous Vehicle Implementation Predictions. [online]
+    Available at: &lt;https://www.vtpi.org/avip.pdf&gt; [Accessed 14 July
+    2021].
+</p>
+<br/>
+<p dir="ltr">
+    Intertraffic.com. 2020. On our way to autonomous driving | Intertraffic.
+    [online] Available at:
+    &lt;https://www.intertraffic.com/news/autonomous-driving/autonomous-vehicle-technology-2020/#technology&gt;
+    [Accessed 15 July 2021].
+</p>
+<br/>
+<h4 dir="ltr">
+    Robotics, Raspberry Pi’s
+</h4>
+<br/>
+<p dir="ltr">
+    &lt;Youkey, <a href="https://youkey.com.au/">https://youkey.com.au/</a>
+    (Supplier of Pudubots in Australia)&gt;
+</p>
+<br/>
+<p dir="ltr">
+&lt;Niska, an Ice cream parlour at Feds Square using robots    <a href="https://niska.com.au/">https://niska.com.au/</a> &gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt; Author - Rushani Epa, Thursday 22nd April 2021, Timeout
+    <a
+        href="https://www.timeout.com/melbourne/news/get-served-by-a-robot-at-this-hot-pot-restaurant-042221"
+    >
+        https://www.timeout.com/melbourne/news/get-served-by-a-robot-at-this-hot-pot-restaurant-042221
+    </a>
+    - Tan Hot Pot, a Restaurant on Bourke St. using robot waiter&gt;
+</p>
+<br/>
+<p dir="ltr">
+&lt;Author - JNS Robotics, 4th February 2021, Youtube    <a href="https://youtu.be/QiiujJVevYo">https://youtu.be/QiiujJVevYo</a> -
+    Dooboo, Restaurant on Swanston St&gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt;Author – Engineers Australia
+    <a
+        href="https://www.engineersaustralia.org.au/News/future-agriculture-robotic-farmers"
+    >
+        https://www.engineersaustralia.org.au/News/future-agriculture-robotic-farmers
+    </a>
+    &gt;
+</p>
+<br/>
+<br/>
+<br/>
+<p dir="ltr">
+    &lt; Author - NASA/JPL.
+    <a href="https://mars.nasa.gov/mars2020/spacecraft/rover/">
+        https://mars.nasa.gov/mars2020/spacecraft/rover/
+    </a>
+    &gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt;Author – Ani, 27th December, 2018, Business Standard
+    <a
+        href="https://www.business-standard.com/article/news-ani/shimizu-corporation-introduces-robots-for-civil-construction-118122700469_1.html"
+    >
+        https://www.business-standard.com/article/news-ani/shimizu-corporation-introduces-robots-for-civil-construction-118122700469_1.html
+    </a>
+    &gt;
+</p>
+<br/>
+<p dir="ltr">
+&lt;Author – Mayo Clinic    <a href="https://mayocl.in/3hHxKRQ">https://mayocl.in/3hHxKRQ</a> &gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt;Author – Ray Kurzweil, 22nd November 2007, The Guardian
+    <a
+        href="https://www.theguardian.com/commentisfree/2007/nov/22/comment.comment"
+    >
+        https://www.theguardian.com/commentisfree/2007/nov/22/comment.comment
+    </a>
+    &gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt;An inspirational video of terraforming a planet with robots, Video
+    creator - Richard Mans, The Verge
+    <a
+        href="https://www.theverge.com/2014/8/25/6065179/watch-robots-terraform-an-alien-world-in-this-wordless-short-film"
+    >
+        https://www.theverge.com/2014/8/25/6065179/watch-robots-terraform-an-alien-world-in-this-wordless-short-film
+    </a>
+    &gt;
+</p>
+<br/>
+<p dir="ltr">
+    &lt;Robots can be a solution for terraforming mars, Author – Graham
+    Phillips 26th November 2018, Sydney Morning Herald,
+    <a
+        href="https://www.smh.com.au/national/send-robots-not-people-to-mars-20181123-p50i0n.html"
+    >
+        https://www.smh.com.au/national/send-robots-not-people-to-mars-20181123-p50i0n.html
+    </a>
+    &gt;
+</p>
+<h3 dir="ltr">
+    Project Idea
+</h3>
+<p dir="ltr">
+    Saksena, G., 2021. NMVTRC · Motorcycle theft map for Australia. [online]
+    Carsafe.com.au. Available at: &lt;https://carsafe.com.au/motorcycle-map&gt;
+    [Accessed 18 July 2021].
+</p>
+<p dir="ltr">
+    Blackknighttracking.com. 2021. [online] Available at:
+    &lt;https://www.blackknighttracking.com/post/2018/06/28/australian-motorcycle-theft-statistics&gt;
+    [Accessed 18 July 2021].
 </p>
 <div>
     <br/>
